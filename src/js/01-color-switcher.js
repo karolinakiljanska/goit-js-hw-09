@@ -8,8 +8,6 @@ const refs = {
   body: document.querySelector('body'),
 };
 
-refs.stopBtn.disabled = true;
-
 refs.startBtn.addEventListener('click', onStartBtnClick);
 refs.stopBtn.addEventListener('click', onStopBtnClick);
 
